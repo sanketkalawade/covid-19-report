@@ -1,7 +1,7 @@
 import React from 'react' 
 import './style.less'
 import logo from '../../shared-framework/images/logo.jpg'
-const HomePage: React.FC<{}> = () => {
+const Header: React.FC<{}> = () => {
     return (
         <div className="header-parent">
            <div className="header-parent__header">
@@ -14,4 +14,4 @@ const HomePage: React.FC<{}> = () => {
     )
 }
 
-export default HomePage
+export default Header
